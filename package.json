@@ -1,12 +1,12 @@
 {
-    "name": "brackets-wpeditor",
-    "title": "WordPress Theme Editor",
-    "description": "This is an extension to edit the theme files of a WordPress site.",
-    "homepage": "https://github.com/animasweb/brackets-wpeditor",
-    "version": "1.0.0",
-    "author": "Leo Lutz <leo@animasweb.com> (http://animasweb.com)",
-    "license": "MIT",
-    "engines": {
-        "brackets": ">=0.24.0"
-    }
+  "name": "brackets-wpeditor",
+  "title": "WordPress Theme Editor",
+  "description": "This is an extension to edit the theme files of a WordPress site.",
+  "homepage": "https://github.com/animasweb/brackets-wpeditor",
+  "version": "1.0.0",
+  "author": "Leo Lutz <leo@animasweb.com> (http://animasweb.com)",
+  "license": "MIT",
+  "engines": {
+      "brackets": ">=0.24.0"
+  }
 }

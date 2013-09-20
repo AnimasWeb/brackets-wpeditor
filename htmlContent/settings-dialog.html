@@ -1,0 +1,27 @@
+<div id="wpedit-project-dialog" class="wpedit-settings template modal hide">
+  <div class="modal-header">
+    <h1 class="dialog-title">WordPress Connection</h1>
+  </div>
+  <div class="modal-body">   
+    <div class="field-container">
+      <label>AJAX URL:</label>
+      <input type="text" id="wpe-url" placeholder="paste in the wordpress ajax url" class="url" />
+      <div style="clear:both;"></div>
+    </div>  
+    <div class="field-container">
+      <label>Name:</label>
+      <input type="text" id="wpe-name"  placeholder="admin username" class=""/>
+      <div style="clear:both;"></div>
+    </div>
+    <div class="field-container">
+      <label>Key:</label>
+      <textarea id="wpe-key" class=""></textarea>
+      <div style="clear:both;"></div>
+    </div>
+    <button id="wpe-check-connection">Check Connection</button> <span id="wpe-verified"></span>
+  </div>
+  <div class="modal-footer">
+    <a href="#" class="dialog-button btn primary" data-button-id="save">Save Settings</a>
+    <a href="#" class="dialog-button btn" data-button-id="cancel">Cancel</a>
+  </div>
+</div>
